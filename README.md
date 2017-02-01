@@ -26,12 +26,14 @@ Each directory has it's own confit with variables which contain file paths to so
 These sounds are then carried over to BDK and used with hotkeys.  
 
 ##Directory Structures  
-
-bdk
-	kits (dir)
-		default (dir)
+```
+bdk -|
+	kits (dir)-|
+	           |
+		default (dir)-|
+		              |
 			config (file)
-
+```
 
 ##Using Kits  
 
