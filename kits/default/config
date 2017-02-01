@@ -1,0 +1,6 @@
+#!/bin/bash
+
+
+KICK=sounds/kick.wav
+SNARE=sounds/snare.wav
+HIHAT=sounds/hihat.wav

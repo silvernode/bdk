@@ -1,0 +1,5 @@
+[TODO]
+
+* clean up code
+* add more default sounds
+* add more kits
