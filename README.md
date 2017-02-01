@@ -1,7 +1,9 @@
 #Bash Drum Kit  
 ###simply play
 
-
+##Depends  
+* bash
+* aplay
 
 ##Help File  
 ```  
