@@ -4,7 +4,7 @@
 
 
 ##Help File  
-
+```  
 BDK - BASH DRUM KIT
 
     ${0} [options] [kit-name]
@@ -15,7 +15,7 @@ BDK - BASH DRUM KIT
 
     -k          Load drum kit
     -l          List available kits  
-
+```
 
 ##Creating Kits  
 
@@ -44,7 +44,7 @@ bdk.sh -k default
 You can see a list of available kits by typing:  
 
 ```
-bdk ls 
+bdk ls
 ```  
 
 
