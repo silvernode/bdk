@@ -48,7 +48,7 @@ bdk.sh -k default
 You can see a list of available kits by typing:  
 
 ```
-bdk ls
+bdk -l
 ```  
 
 
