@@ -1,6 +1,14 @@
 #!/bin/bash
 
+# SOUNDS
+  KICK='sounds/kick.wav'
+  SNARE='sounds/snare.wav'
+  HIHAT='sounds/hihat.wav'
 
-KICK=sounds/kick.wav
-SNARE=sounds/snare.wav
-HIHAT=sounds/hihat.wav
+# KEYBINDINGS
+
+KP="d" # Kick Petal
+SD='' # Snare Drum (leave blank single quotes)
+HHC="s" #Hi-Hat
+
+
