@@ -9,7 +9,7 @@
 ```  
 BDK - BASH DRUM KIT
 
-    ${0} [options] [kit-name]
+    bdk [options] [kit-name]
 
 
 
