@@ -1,11 +1,11 @@
-#Bash Drum Kit  
-###simply play
+# Bash Drum Kit  
+### simply play
 
-##Depends  
+## Depends  
 * bash
 * aplay
 
-##Help File  
+## Help File  
 ```  
 BDK - BASH DRUM KIT
 
@@ -19,13 +19,13 @@ BDK - BASH DRUM KIT
     -l          List available kits  
 ```
 
-##Creating Kits  
+## Creating Kits  
 
 All kits are just directories within the kits directory.  
 Each directory has it's own confit with variables which contain file paths to sounds.  
 These sounds are then carried over to BDK and used with hotkeys.  
 
-##Directory Structures  
+## Directory Structures  
 ```
 bdk -|
 	kits (dir)-|
@@ -35,7 +35,7 @@ bdk -|
 			config (file)
 ```
 
-##Using Kits  
+## Using Kits  
 
 
 Just point bdk to the kit you want to use:  
@@ -52,7 +52,7 @@ bdk -l
 ```  
 
 
-##Example config  
+## Example config  
 
 located in: kits/default/config  
 
