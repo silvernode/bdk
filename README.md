@@ -22,7 +22,7 @@ BDK - BASH DRUM KIT
 ## Creating Kits  
 
 All kits are just directories within the kits directory.  
-Each directory has it's own confit with variables which contain file paths to sounds.  
+Each directory has it's own config with variables which contain file paths to sounds.  
 These sounds are then carried over to BDK and used with hotkeys.  
 
 ## Directory Structures  
