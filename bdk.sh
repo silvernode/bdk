@@ -118,13 +118,13 @@ while true;do
 	# -s: do not echo input character. -n 1: read only 1 character (separate with space)
 
     if [[ $key = "${KP}" ]]; then
-        aplay ${KICK} >/dev/null 2>/dev/null &
+       ${PLAYER} ${KICK} >/dev/null 2>/dev/null &
         printf "${LCYAN}[${KP}] Kick${NC}\n"
     elif [[ $key == ${SD} ]];then
-        aplay ${SNARE} >/dev/null 2>/dev/null &
+        ${PLAYER} ${SNARE} >/dev/null 2>/dev/null &
         printf "${YELLOW}[${SD}] Snare Drum${NC}\n"
     elif [[ $key == "${HHC}" ]];then
-        aplay ${HIHAT} >/dev/null 2>/dev/null &
+        ${PLAYER} ${HIHAT} >/dev/null 2>/dev/null &
         printf "${LGREEN}[${HHC}] Hi-Hat Closed${NC}\n"
     elif [[ $key == "h" ]];then
         key

@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Core
+
+  PLAYER='aplay'
+
 # SOUNDS
   KICK='sounds/kick.wav'
   SNARE='sounds/snare.wav'

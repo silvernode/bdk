@@ -59,8 +59,12 @@ located in: kits/default/config
 ```  
 #!/bin/bash
 
+PLAYER='mpv'
+KICK='sounds/kick.wav'
+SNARE='sounds/snare.wav'
+HIHAT='sounds/hihat.wav'
 
-KICK=sounds/kick.wav
-SNARE=sounds/snare.wav
-HIHAT=sounds/hihat.wav
+KP="d" # Kick Petal  
+SD=''  # Snare Drum
+HHC="s" # Hi Hat Closed
 ```
